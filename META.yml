@@ -37,4 +37,8 @@ requires:
   Term::ProgressBar::Simple: 0
   strict: 0
   warnings: 0
-version: 0.003
+resources:
+  bugtracker: https://github.com/glauschwuffel/Perl--Analysis--Static/issues
+  homepage: https://github.com/glauschwuffel/Perl--Analysis--Static
+  repository: git://github.com/glauschwuffel/Perl--Analysis--Static.git
+version: 0.004

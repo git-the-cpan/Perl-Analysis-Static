@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Question::PackageVariable::Name;
+{
+  $Perl::Analysis::Static::Question::PackageVariable::Name::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: Does the name of the package variable equal this string?
 
 use Moose;
@@ -6,10 +9,10 @@ use Moose;
 extends 'Perl::Analysis::Static::Question';
 
 sub set_arguments {
-	my ($self, $arguments) = @_;
-	$self->class('Perl::Analysis::Static::Element::PackageVariable');
-	$self->filter(    ['Name'] );
-	$self->arguments( [split(/:/, $arguments)] );
+    my ($self, $arguments) = @_;
+    $self->class('Perl::Analysis::Static::Element::PackageVariable');
+    $self->filter(    ['Name'] );
+    $self->arguments( [split(/:/, $arguments)] );
 }
 
 1;
@@ -23,7 +26,7 @@ Perl::Analysis::Static::Question::PackageVariable::Name - Does the name of the p
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

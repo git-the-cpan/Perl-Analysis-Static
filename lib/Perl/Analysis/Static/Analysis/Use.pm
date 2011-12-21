@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Analysis::Use;
+{
+  $Perl::Analysis::Static::Analysis::Use::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: find all module imports via use
 
@@ -47,7 +50,7 @@ Perl::Analysis::Static::Analysis::Use - find all module imports via use
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

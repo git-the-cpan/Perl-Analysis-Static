@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::String;
+{
+  $Perl::Analysis::Static::Element::String::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: a string
 
 use Moose;
@@ -25,7 +28,7 @@ Perl::Analysis::Static::Element::String - a string
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 stringify
 

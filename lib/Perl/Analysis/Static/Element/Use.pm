@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::Use;
+{
+  $Perl::Analysis::Static::Element::Use::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: module import via use
 
 use Moose;
@@ -25,7 +28,7 @@ Perl::Analysis::Static::Element::Use - module import via use
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 stringify
 

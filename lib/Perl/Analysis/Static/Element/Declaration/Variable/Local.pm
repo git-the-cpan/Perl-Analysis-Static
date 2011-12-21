@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::Declaration::Variable::Local;
+{
+  $Perl::Analysis::Static::Element::Declaration::Variable::Local::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: declaration of a local variable
 
 use Moose;
@@ -15,7 +18,7 @@ Perl::Analysis::Static::Element::Declaration::Variable::Local - declaration of a
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

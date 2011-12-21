@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::Declaration::Variable::Lexical;
+{
+  $Perl::Analysis::Static::Element::Declaration::Variable::Lexical::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: declaration of a lexical variable
 
 use Moose;
@@ -15,7 +18,7 @@ Perl::Analysis::Static::Element::Declaration::Variable::Lexical - declaration of
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

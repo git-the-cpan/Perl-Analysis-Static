@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Filter::String;
+{
+  $Perl::Analysis::Static::Filter::String::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: Are the strings equal?
 
 use Moose;
@@ -16,7 +19,7 @@ sub _filter {
 sub _set_arguments {
     my ($self, $arguments) = @_;
 
-	$self->string($arguments->[0]);    
+    $self->string($arguments->[0]);    
 }
 
 1;
@@ -30,7 +33,7 @@ Perl::Analysis::Static::Filter::String - Are the strings equal?
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

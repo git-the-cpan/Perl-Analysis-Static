@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Analysis::String;
+{
+  $Perl::Analysis::Static::Analysis::String::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: find all strings
 
@@ -34,7 +37,7 @@ Perl::Analysis::Static::Analysis::String - find all strings
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

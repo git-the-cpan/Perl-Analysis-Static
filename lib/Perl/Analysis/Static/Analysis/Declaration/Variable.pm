@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Analysis::Declaration::Variable;
+{
+  $Perl::Analysis::Static::Analysis::Declaration::Variable::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: find all declarations of variables
 
@@ -88,7 +91,7 @@ Perl::Analysis::Static::Analysis::Declaration::Variable - find all declarations 
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 DESCRIPTION
 

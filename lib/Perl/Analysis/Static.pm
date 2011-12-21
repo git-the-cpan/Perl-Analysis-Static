@@ -1,10 +1,11 @@
 package Perl::Analysis::Static;
+{
+  $Perl::Analysis::Static::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: analyse your Perl documents (without running them)
 
 use strict;
 use warnings;
-
-our $VERSION=0.002;
 
 
 1;
@@ -18,7 +19,7 @@ Perl::Analysis::Static - analyse your Perl documents (without running them)
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 DESCRIPTION
 
@@ -50,6 +51,23 @@ Here are some basic examples to help get you started.
   
   # the same, but look in another directory
   perlanalyst -q Sub::Name=foo ~/perl5/lib/perl5/Test
+
+  # list questions you may ask
+  perlanalyst --list-questions
+  
+  # list analyses
+  perlanalyst --list-analyses
+  
+  # list filters
+  perlanalyst --list-filters
+
+  # see a list of the files that would be examined
+  perlanalyst --list-files
+
+=head1 INSTALLATION
+
+Please refer to the file INSTALL for documentation of the
+installation process.
 
 =head1 WARNING
 

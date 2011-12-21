@@ -5,7 +5,6 @@ META.yml
 Makefile.PL
 README
 README.markdown
-README.mkdn
 dist.ini
 doc/LIESMICH
 doc/TODO
@@ -90,12 +89,14 @@ t/files.t
 t/filter.t
 t/lexicals.t
 t/locals.t
+t/modulelister.t
 t/package_variables.t
 t/packages.t
 t/question-lexical-name.t
 t/question-sub-name.t
 t/question.t
 t/questioner.t
+t/release-no-tabs.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/subs.t

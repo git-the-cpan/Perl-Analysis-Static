@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Question::Lexical::NameLike;
+{
+  $Perl::Analysis::Static::Question::Lexical::NameLike::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: Does the name of the lexical variable match this regex?
 
 use Moose;
@@ -6,10 +9,10 @@ use Moose;
 extends 'Perl::Analysis::Static::Question';
 
 sub set_arguments {
-	my ($self, $arguments) = @_;
-	$self->class('Perl::Analysis::Static::Element::Lexical');
-	$self->filter(    ['NameLike'] );
-	$self->arguments( [split(/:/, $arguments)] );
+    my ($self, $arguments) = @_;
+    $self->class('Perl::Analysis::Static::Element::Lexical');
+    $self->filter(    ['NameLike'] );
+    $self->arguments( [split(/:/, $arguments)] );
 }
 
 1;
@@ -23,7 +26,7 @@ Perl::Analysis::Static::Question::Lexical::NameLike - Does the name of the lexic
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

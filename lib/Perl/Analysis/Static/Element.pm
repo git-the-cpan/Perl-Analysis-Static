@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element;
+{
+  $Perl::Analysis::Static::Element::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: represents an element of a Perl document
 
 use Moose;
@@ -26,7 +29,7 @@ Perl::Analysis::Static::Element - represents an element of a Perl document
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 ATTRIBUTES
 

@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::Sub;
+{
+  $Perl::Analysis::Static::Element::Sub::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: a subroutine declaration
 
 use Moose;
@@ -24,7 +27,7 @@ Perl::Analysis::Static::Element::Sub - a subroutine declaration
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 stringify
 

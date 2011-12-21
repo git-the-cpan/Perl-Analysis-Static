@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Element::Declaration::Package;
+{
+  $Perl::Analysis::Static::Element::Declaration::Package::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: declaration of a package
 
 use Moose;
@@ -24,7 +27,7 @@ Perl::Analysis::Static::Element::Declaration::Package - declaration of a package
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 stringify ()
 

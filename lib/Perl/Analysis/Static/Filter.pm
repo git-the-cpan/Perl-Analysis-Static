@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Filter;
+{
+  $Perl::Analysis::Static::Filter::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: decide if we asked for an element
 
 
@@ -10,27 +13,27 @@ use English qw( -no_match_vars );    # Avoids regex performance penalty
 sub set_arguments {
     my ($self, $arguments)=@_;
 
-	my @args=split(/:/, $arguments);
-	$self->_set_arguments(\@args);
+    my @args=split(/:/, $arguments);
+    $self->_set_arguments(\@args);
 }
 
 
 sub filter {
-	my ( $self, $elements ) = @_;
+    my ( $self, $elements ) = @_;
 
-	my @e = grep { $self->_filter($_) } @$elements;
-	return unless @e;
-	return \@e;
+    my @e = grep { $self->_filter($_) } @$elements;
+    return unless @e;
+    return \@e;
 }
 
 sub _filter {
-	my ( $self, $element ) = @_;
-	die 'implement me';
+    my ( $self, $element ) = @_;
+    die 'implement me';
 }
 
 sub _set_arguments {
-	my ( $self, $arguments) = @_;
-	die 'implement me';
+    my ( $self, $arguments) = @_;
+    die 'implement me';
 }
 
 1;
@@ -44,7 +47,7 @@ Perl::Analysis::Static::Filter - decide if we asked for an element
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 DESCRIPTION
 

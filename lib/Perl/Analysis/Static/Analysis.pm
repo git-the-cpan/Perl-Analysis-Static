@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Analysis;
+{
+  $Perl::Analysis::Static::Analysis::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: look for certain elements in a Perl document
 
@@ -48,7 +51,7 @@ Perl::Analysis::Static::Analysis - look for certain elements in a Perl document
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 DESCRIPTION
 

@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Collector;
+{
+  $Perl::Analysis::Static::Collector::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: collects answers to questions about a Perl documents
 
@@ -35,7 +38,7 @@ Perl::Analysis::Static::Collector - collects answers to questions about a Perl d
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 DESCRIPTION
 

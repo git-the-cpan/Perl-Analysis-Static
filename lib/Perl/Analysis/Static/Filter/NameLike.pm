@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Filter::NameLike;
+{
+  $Perl::Analysis::Static::Filter::NameLike::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: Does the name match this regex?
 
 use Moose;
@@ -16,7 +19,7 @@ sub _filter {
 sub _set_arguments {
     my ($self, $arguments) = @_;
 
-	$self->name($arguments->[0]);    
+    $self->name($arguments->[0]);    
 }
 
 1;
@@ -30,7 +33,7 @@ Perl::Analysis::Static::Filter::NameLike - Does the name match this regex?
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

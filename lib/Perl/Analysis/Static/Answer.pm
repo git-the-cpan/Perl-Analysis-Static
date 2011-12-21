@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Answer;
+{
+  $Perl::Analysis::Static::Answer::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: represents an answer to a question about a Perl document
 
 
@@ -29,7 +32,7 @@ Perl::Analysis::Static::Answer - represents an answer to a question about a Perl
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 DESCRIPTION
 

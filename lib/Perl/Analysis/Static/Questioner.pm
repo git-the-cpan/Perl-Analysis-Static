@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Questioner;
+{
+  $Perl::Analysis::Static::Questioner::VERSION = '0.004'; # TRIAL
+}
 
 # ABSTRACT: ask a question about a Perl document
 
@@ -107,7 +110,7 @@ Perl::Analysis::Static::Questioner - ask a question about a Perl document
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head2 DESCRIPTION
 

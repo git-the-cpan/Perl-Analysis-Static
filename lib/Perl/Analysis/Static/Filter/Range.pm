@@ -1,4 +1,7 @@
 package Perl::Analysis::Static::Filter::Range;
+{
+  $Perl::Analysis::Static::Filter::Range::VERSION = '0.004'; # TRIAL
+}
 # ABSTRACT: Does the element lie in this range of lines?
 
 use Moose;
@@ -9,18 +12,18 @@ has 'from' => ( is => 'rw', isa => 'Int' );
 has 'to'   => ( is => 'rw', isa => 'Int' );
 
 sub _filter {
-	my ( $self, $element ) = @_;
+    my ( $self, $element ) = @_;
 
 #warn "element is ", $element->from(), " - ", $self->to,"\n";
-	return 1 if $element->from() >= $self->from()
-	  and $element->to() <= $self->to();
+    return 1 if $element->from() >= $self->from()
+      and $element->to() <= $self->to();
 }
 
 sub _set_arguments {
-	my ( $self, $arguments ) = @_;
+    my ( $self, $arguments ) = @_;
 
-	$self->from( $arguments->[0] );
-	$self->to( $arguments->[1] );
+    $self->from( $arguments->[0] );
+    $self->to( $arguments->[1] );
 
 #warn "set args to ", $self->from," - ",$self->to,"\n";
 }
@@ -36,7 +39,7 @@ Perl::Analysis::Static::Filter::Range - Does the element lie in this range of li
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 
